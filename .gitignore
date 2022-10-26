@@ -32,6 +32,7 @@ settings.py
 # Distribution / packaging
 .gitignore
 .Python
+.idea
 build/
 develop-eggs/
 dist/
