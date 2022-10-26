@@ -116,6 +116,7 @@
     <form id="detailForm" method="get" action="{% url 'pybo:detail' question.id %}">
         <input type="hidden" id="page" name="page" value="{{ page }}">
     </form>
+    <a href="{% url 'pybo:index' %}" class="back_to_list btn btn-primary btn-sm my-4">목록으로</a>
     <!-- 답변 등록 -->
     <form action="{% url 'pybo:answer_create' question.id %}" method="post" class="my-3">
         {% csrf_token %}
