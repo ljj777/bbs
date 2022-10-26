@@ -30,9 +30,8 @@ settings.py
 *.so
 
 # Distribution / packaging
-.gitignore
 .Python
-.idea
+.gitignore
 build/
 develop-eggs/
 dist/
